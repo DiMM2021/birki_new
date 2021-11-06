@@ -1,0 +1,297 @@
+::-webkit-scrollbar
+    width: 0
+    
+@font-face 
+    font-family: 'Nautilus'
+    src: url(../font/Nautilus.otf)
+.nav
+    height: 50px
+    background: #000
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 1
+.logo
+    img
+        margin-top: 90px
+        margin-left: 120px
+        width: 280px
+        height: 150px
+.menu
+    display: flex
+    justify-content: space-around
+    padding-left: 0
+    margin-bottom: 0
+    font-family: Nautilus
+    font-size: 23px
+    padding-top: 8px
+    position: relative
+    li
+        list-style-type: none
+        z-index: 3
+    &_item
+        a
+            text-decoration: none
+            padding-left: 10px
+            color: #DB7093
+        a:hover
+            color: #FFFFFF
+        &_i
+            a
+                text-decoration: none
+                padding-left: 10px
+                color: #DB7093
+            a:hover
+                color: #FFFFFF
+    &_link
+        &_i
+            padding-left: 0
+            padding-right: 80px
+.menu_mini
+    display: none
+img.wa
+    width: 30px
+    margin-right: 10px
+img.wapp
+
+.hamburger
+    display: none
+.promo
+    display: flex
+    height: 450px
+    &_foto
+        img
+            width: 500px
+            height: 500px
+            transform: translateY(-20px)
+    &_copy
+        img
+            display: none
+    &_descr
+        margin-top: 70px
+        text-align: center
+    &_btn
+        display: block
+        margin: 0 auto
+        margin-top: 80px
+        width: 190px
+        height: 46px
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+        border: none
+        border-radius: 4px
+        background-color: #DB7093
+        color: #000000
+        font-size: 20px
+        font-weight: 500
+        font-family: Nautilus
+        transition: 0.8s linear;
+        &:hover
+            color: white
+    &_btn2
+        display: block
+        margin: 0 auto
+        margin-top: 10px
+        width: 190px
+        height: 46px
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+        border: none
+        border-radius: 4px
+        background-color: #DB7093
+        color: #000000
+        font-size: 20px
+        font-weight: 500
+        font-family: Nautilus
+        transition: 0.8s linear;
+        &:hover
+            color: white
+    &_myforms
+        width: 500px
+        height: 500px
+        background-color: rgba (0, 0, 0, .8) 
+h1
+    padding-top: 60px
+.print
+    margin-top: 150px
+    min-height: 930px
+    background-color: #DB7093
+    h2
+        text-align: center
+        padding-top: 50px
+        font-family: Nautilus
+    &_descr
+        margin-top: 30px
+        text-align: justify
+    &_text
+        margin-top: 30px
+        text-align: justify
+    &_table
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 20px
+        table
+            margin-top: 8px
+            border: 1px solid
+            width: 100%
+            cellpadding: 15px
+            text-align: center
+            tr
+                th
+                    width: 33%
+                    border-bottom: 1px solid
+                td
+                    padding-top: 10px
+                    padding-bottom: 10px
+    .col-xxl-6
+        padding-left: 50px
+        padding-right: 50px
+.pay
+    margin-top: 50px
+    min-height: 450px
+    text-align: center
+    &_delivery
+        h5
+            margin-top: 25px
+            text-transform: uppercase
+        ul
+            padding-left: 0
+            text-transform: uppercase
+        li
+            list-style-type: none
+    &_line
+        display: block
+        margin: 0 auto
+        margin-top: 30px
+        height: 2px
+        width: 600px
+        background-color: #DB7093
+    &_text
+        margin-top: 25px
+        text-transform: uppercase
+        ul
+            padding-left: 0
+        li
+            list-style-type: none
+        h5
+            margin-top: 25px
+    h2
+        font-family: Nautilus
+.contact
+    position: relative
+    min-height: 300px
+    background-color: #DB7093
+    h2
+        padding-top: 50px
+        text-align: center
+        margin-bottom: 20px
+        font-family: Nautilus
+    &_text
+        text-align: center
+    &_icon
+        margin-top: 10px
+        display: flex
+        justify-content: center
+        align-items: center
+        text-decoration: none
+        color: #000000
+        font-size: 20px
+        img
+            padding-top: 15px
+            margin-right: 10px
+            width: 40px
+        span
+            margin-bottom: 0
+            padding-top: 15px
+            color: #000
+footer
+    height: 50px
+    background-color: #000000
+.popup-bg
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background: rgba(0,0,0,0.8)
+    z-index: 5
+    display: none
+.popup
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 600px
+    background: white
+    padding: 15px
+    transform: translate(-50%, -50%)
+    padding-top: 60px
+    form
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        input
+            width: 450px
+            margin-bottom: 10px
+            border: 2px solid #DB7093
+            border-radius: 5px
+            font-size: 15px
+            margin-bottom: 20px
+            height: 35px
+        select
+            width: 450px
+            margin-bottom: 10px
+            border: 2px solid #DB7093
+            border-radius: 5px
+            font-size: 15px
+            margin-bottom: 20px
+            height: 35px
+        textarea
+            width: 450px
+            margin-bottom: 10px
+            border: 2px solid #DB7093
+            border-radius: 5px
+            font-size: 15px
+            margin-bottom: 20px
+            height: 70px
+
+    .services
+        font-size: 18px
+        color: #808080
+    .colors_one
+        font-size: 18px
+        color: #808080
+    .colors_two
+        font-size: 18px
+        color: #808080
+    .press
+        font-size: 18px
+        color: #808080
+    .kind
+        font-size: 18px
+        color: #808080
+
+.close-popup
+    position: absolute
+    top: 30px
+    right: 30px
+    width: 20px
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
