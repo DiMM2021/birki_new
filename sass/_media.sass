@@ -1,39 +1,39 @@
 @media (max-width: 1399px)
     .print
-        min-height: 970px
+        min-height: 670px
         .col-xxl-6
             padding-left: 50px
             padding-right: 50px  
-    .logo
-        img
-            margin-left: 86px
     .promo
+        height: 700px
         &_foto
             img
-                width: 450px
-                height: 450px
+                width: 1000px
+    .print
+        min-height: 800px
 @media (max-width: 1199px)
     .logo
         img
             margin-left: 45px
     .promo
+        height: 600px
         &_foto
             img
-                width: 380px
-                height: 380px
-                margin-top: 65px
+                width: 900px
         &_descr
             margin-top: 45px
             h2
                 font-size: 28px
     .print
-        min-height: 970px
+        min-height: 770px
         &_text
             margin-bottom: 30px
         .col-xl-6
             padding-left: 40px
             padding-right: 40px
 @media (max-width: 991px)
+    .print
+        min-height: 770px
     .logo
         img
             margin-left: 45px
@@ -48,14 +48,10 @@
         margin-right: 10px
         transform: translateY(-3px)
     .promo
-        height: 350px
+        height: 450px
         &_foto
             img
-                margin-top: 0px
-                margin-right: 50px
-                width: 250px
-                height: 250px
-                transform: translateY(80px)
+                width: 600px
         &_descr
             margin-top: 0px
             text-align: center
@@ -63,6 +59,8 @@
                 font-size: 35px
             h2
                 font-size: 28px
+        a
+            text-decoration: none
     .col-xl-6
         padding-bottom: 40px
 @media (max-width: 767px)
@@ -77,7 +75,7 @@
         height: 100vh
         padding: 20px 15px
         background-color: rgba(0, 0, 0, .8)
-        transition: 0.6s all
+        transition: 1s all
         z-index: 2
         &_active
             left: 0
@@ -102,7 +100,7 @@
             width: 100%
             background-color: #fff
             margin-bottom: 2px
-            transition: 0.6s all
+            transition: 1s all
         &_active
             span
                 margin-bottom: -2px
@@ -139,19 +137,34 @@
         margin-bottom: 5px
     .xs-hidden
         display: none
+    .mg
+        display: flex
+        justify-content: center
+        &_logo
+            padding-top: 150px
+            width: 500px
     .promo
         height: 430px
+        &_min
+            width: 500px
+        &_foto
+            img
+                display: none
         &_copy
             img
                 display: block
                 margin: 0 auto
                 width: 200px
                 height: 200px
+        a
+            text-decoration: none
     h1
         padding-top: 20px
     .pay
         &_line
             width: 300px
+    .print
+        min-height: 750px
 @media (max-width: 575px)
     .menu
         &_mini
@@ -177,8 +190,14 @@
             width: 120px
             height: 65px
             margin-left: 0px
+    .mg
+        display: flex
+        justify-content: center
+        &_logo
+            padding-top: 150px
+            width: 280px
     .promo
-        height: 220px
+        height: 300px
         &_copy
             img
                 display: none
@@ -188,7 +207,10 @@
                 margin-top: 30px
             h2
                 font-size: 20px
+        a
+            text-decoration: none
     .print
+        min-height: 800px
         &_descr
             font-size: 12px
             h4
@@ -212,6 +234,12 @@
     .contact
         &_text
             font-size: 14px
+.col-sm-6.dev
+    display: flex
+    justify-content: center
+.col-sm-6
+    display: flex
+    justify-content: center
 
             
 

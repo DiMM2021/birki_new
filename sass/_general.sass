@@ -15,7 +15,7 @@
     img
         margin-top: 90px
         margin-left: 120px
-        width: 280px
+        width: 450px
         height: 150px
 .menu
     display: flex
@@ -56,20 +56,24 @@ img.wapp
 
 .hamburger
     display: none
+.mg
+    display: none
 .promo
-    display: flex
-    height: 450px
+    height: 750px
     &_foto
+        display: flex
+        justify-content: center
         img
-            width: 500px
-            height: 500px
-            transform: translateY(-20px)
+            width: 1100px
+            margin-top: 100px
     &_copy
         img
             display: none
     &_descr
         margin-top: 70px
         text-align: center
+    a
+        text-decoration: none
     &_btn
         display: block
         margin: 0 auto
@@ -84,64 +88,32 @@ img.wapp
         font-size: 20px
         font-weight: 500
         font-family: Nautilus
-        transition: 0.8s linear;
+        transition: 0.8s linear
         &:hover
             color: white
-    &_btn2
-        display: block
-        margin: 0 auto
-        margin-top: 10px
-        width: 190px
-        height: 46px
-        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
-        border: none
-        border-radius: 4px
-        background-color: #DB7093
-        color: #000000
-        font-size: 20px
-        font-weight: 500
-        font-family: Nautilus
-        transition: 0.8s linear;
-        &:hover
-            color: white
-    &_myforms
-        width: 500px
-        height: 500px
-        background-color: rgba (0, 0, 0, .8) 
+        a
+            text-decoration: none
 h1
     padding-top: 60px
 .print
     margin-top: 150px
-    min-height: 930px
+    min-height: 780px
     background-color: #DB7093
     h2
         text-align: center
         padding-top: 50px
         font-family: Nautilus
+    &_head
+        margin-bottom: 40px
     &_descr
         margin-top: 30px
         text-align: justify
     &_text
         margin-top: 30px
         text-align: justify
-    &_table
-        display: flex
-        justify-content: space-between
-        align-items: center
-        margin-top: 20px
-        table
-            margin-top: 8px
-            border: 1px solid
-            width: 100%
-            cellpadding: 15px
-            text-align: center
-            tr
-                th
-                    width: 33%
-                    border-bottom: 1px solid
-                td
-                    padding-top: 10px
-                    padding-bottom: 10px
+    &_li
+        padding-top: 25px
+
     .col-xxl-6
         padding-left: 50px
         padding-right: 50px
@@ -206,92 +178,33 @@ h1
 footer
     height: 50px
     background-color: #000000
-.popup-bg
-    position: fixed
-    width: 100%
-    height: 100%
-    top: 0
-    left: 0
-    background: rgba(0,0,0,0.8)
-    z-index: 5
-    display: none
-.popup
-    position: absolute
-    top: 50%
-    left: 50%
-    width: 600px
-    background: white
-    padding: 15px
-    transform: translate(-50%, -50%)
-    padding-top: 60px
-    form
-        display: flex
-        flex-direction: column
-        align-items: center
-        justify-content: center
-        input
-            width: 450px
-            margin-bottom: 10px
-            border: 2px solid #DB7093
-            border-radius: 5px
-            font-size: 15px
-            margin-bottom: 20px
-            height: 35px
-        select
-            width: 450px
-            margin-bottom: 10px
-            border: 2px solid #DB7093
-            border-radius: 5px
-            font-size: 15px
-            margin-bottom: 20px
-            height: 35px
-        textarea
-            width: 450px
-            margin-bottom: 10px
-            border: 2px solid #DB7093
-            border-radius: 5px
-            font-size: 15px
-            margin-bottom: 20px
-            height: 70px
-
-    .services
-        font-size: 18px
-        color: #808080
-    .colors_one
-        font-size: 18px
-        color: #808080
-    .colors_two
-        font-size: 18px
-        color: #808080
-    .press
-        font-size: 18px
-        color: #808080
-    .kind
-        font-size: 18px
-        color: #808080
-
-.close-popup
-    position: absolute
-    top: 30px
-    right: 30px
-    width: 20px
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
+.col-sm-6.dev
+    display: flex
+    justify-content: flex-end
+    align-items: center
+.modal_pop_up
+    color: #DB7093
+    font-family: Nautilus
+.promo_btn_2
+        display: block
+        margin: 0 auto
+        margin-top: 80px
+        width: 190px
+        height: 46px
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+        border: none
+        border-radius: 4px
+        background-color: #DB7093
+        color: #000000
+        font-size: 20px
+        font-weight: 500
+        font-family: Nautilus
+        transition: 0.8s linear
+        &:hover
+            color: white
+        a
+            text-decoration: none
+.modal-btn
+    display: flex
+    justify-content: center
+    margin-bottom: 50px
